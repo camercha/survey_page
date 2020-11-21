@@ -1,49 +1,76 @@
-
 *{
-    box-sizing: border-box;
-  }
-  body{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    background-color: blue;
-  }
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
   
+  background-color: blue;
+}
+
+
+
+header{
+  background-color: black;
+  color: white;
+  text-align: center;
+  opacity: 0.5;
   
+}
+
+label{
+  display: block;
+  margin-left: 18px;
+}
+
+select{
+
+  width: 90%;
+  margin:auto;
+  display: block;
+
+
+}
+
+button{
+  display: block;
+  margin: auto;
+  width: 25%;
+  padding: 2px;
+  background-color: teal;
+  border-radius: 10%;
+
+}
+.form-holder1 input{
+  width: 90%;
+  margin:auto;
+  display: block;
+
+}
+
+.form-holder1{
+  border: 5px solid red;
+   display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
   
-  header{
-    background-color: black;
-    color: white;
-    text-align: center;
-    opacity: 0.5;
-    
-  }
+}
+
+
+.form-holder2{
+  border: 5px solid greenyellow;
+   display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
   
-  label{
-    display: block;
-    margin-left: 18px;
-  }
-  
-  button{
-    display: block;
-    margin: auto;
-  
-  }
-  input{
-    width: 90%;
-    margin:auto;
-    display: block;
-  
-  }
-  
-  .form-holder{
-    
-    border: 5px solid red;
-     display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin: auto;
-    
-  }
-  
-  
+}
+
+.form-holder2 label{
+  display: inline-block;
+}
+
+
+
+
