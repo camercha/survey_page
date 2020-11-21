@@ -1,0 +1,49 @@
+
+*{
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: blue;
+  }
+  
+  
+  
+  header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    opacity: 0.5;
+    
+  }
+  
+  label{
+    display: block;
+    margin-left: 18px;
+  }
+  
+  button{
+    display: block;
+    margin: auto;
+  
+  }
+  input{
+    width: 90%;
+    margin:auto;
+    display: block;
+  
+  }
+  
+  .form-holder{
+    
+    border: 5px solid red;
+     display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    
+  }
+  
+  
