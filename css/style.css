@@ -9,8 +9,9 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  backdrop-filter: blur(5px) contrast(.8);
- 
+  backdrop-filter: blur(5px) contrast(.4);
+ color: white;
+ font-family:  'Montserrat', sans-serif;
 }
 
 
@@ -69,9 +70,10 @@ textarea{
   border: 5px solid red;
    display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
   margin: auto;
   backdrop-filter: opacity(.7);
+  
   
 }
 
@@ -82,8 +84,9 @@ textarea{
   border: 5px solid greenyellow;
    display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
   margin: auto;
+  
   
 }
 
