@@ -49,6 +49,13 @@ button{
   border-radius: 10%;
 
 }
+
+
+textarea{
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
 .form-holder1 input{
   width: 90%;
   margin:auto;
@@ -57,6 +64,7 @@ button{
 }
 
 .form-holder1{
+  font-size: 20px;
   background: rgba(0, 151, 19, 0.3);
   border: 5px solid red;
    display: flex;
@@ -69,6 +77,7 @@ button{
 
 
 .form-holder2{
+  font-size: 20px;
   background: rgba(0, 151, 19, 0.3);
   border: 5px solid greenyellow;
    display: flex;
