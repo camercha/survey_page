@@ -23,6 +23,8 @@ header{
   
 }
 
+
+
 label{
   display: block;
   margin-left: 18px;
@@ -38,6 +40,7 @@ select{
 }
 
 button{
+  background: rgba(0, 151, 19, 0.3);
   display: block;
   margin: auto;
   width: 25%;
@@ -54,7 +57,7 @@ button{
 }
 
 .form-holder1{
- 
+  background: rgba(0, 151, 19, 0.3);
   border: 5px solid red;
    display: flex;
   flex-direction: column;
@@ -66,6 +69,7 @@ button{
 
 
 .form-holder2{
+  background: rgba(0, 151, 19, 0.3);
   border: 5px solid greenyellow;
    display: flex;
   flex-direction: column;
