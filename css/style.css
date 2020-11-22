@@ -12,7 +12,7 @@ body{
   backdrop-filter: blur(5px) contrast(.4);
  color: white;
  font-family:  'Montserrat', sans-serif;
- height: 1416px;
+ height: 1600px;
 }
 
 
@@ -25,12 +25,15 @@ header{
   
 }
 
-
+span{
+  font-size: 15px;
+}
 
 label{
   display: block;
   padding-left: 35px;
   margin-top: 10px;
+  padding-bottom: 10px;
 
 }
 
@@ -131,8 +134,13 @@ textarea{
   }
 
 
+  label{
+    padding-left: 19px;
+    padding-bottom: 10px;
+  }
+
   body{
-    height: 1520px;
+    height: 1750px;
   }
 
 }
