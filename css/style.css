@@ -120,5 +120,22 @@ textarea{
 }
 
 
+@media (max-width:700px){
+
+  .form-holder1{
+    width: 400px;
+  }
+
+  .form-holder2{
+    width: 400px;
+  }
+
+
+  body{
+    height: 1520px;
+  }
+
+}
+
 
 
