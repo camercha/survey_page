@@ -12,6 +12,7 @@ body{
   backdrop-filter: blur(5px) contrast(.4);
  color: white;
  font-family:  'Montserrat', sans-serif;
+ height: 1416px;
 }
 
 
@@ -84,7 +85,7 @@ textarea{
   background: rgba(0, 151, 151, 0.226);
   display: flex;
   flex-direction: column;
-  width: 600px;
+  width: 650px;
   margin: auto;
   backdrop-filter: opacity(.7);
   padding-top: 20px;
@@ -96,7 +97,7 @@ textarea{
 .form-holder2{
   font-size: 20px;
   background: rgba(0, 151, 151, 0.226);
-  width: 600px;
+  width: 650px;
    display: flex;
   flex-direction: column;
 
