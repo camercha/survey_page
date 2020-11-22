@@ -84,7 +84,7 @@ textarea{
   background: rgba(0, 151, 151, 0.226);
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 560px;
   margin: auto;
   backdrop-filter: opacity(.7);
   padding-top: 20px;
@@ -96,10 +96,10 @@ textarea{
 .form-holder2{
   font-size: 20px;
   background: rgba(0, 151, 151, 0.226);
- 
+  width: 560px;
    display: flex;
   flex-direction: column;
-  width: 40%;
+
   margin: auto;
   
   
