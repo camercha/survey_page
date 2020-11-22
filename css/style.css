@@ -28,11 +28,13 @@ header{
 
 label{
   display: block;
-  margin-left: 18px;
+  padding-left: 35px;
+  margin-top: 10px;
+
 }
 
 select{
-
+  font-size: 17px;
   width: 90%;
   margin:auto;
   display: block;
@@ -48,10 +50,12 @@ button{
   display: block;
   margin: auto;
   width: 75%;
-  padding: 2px;
+  padding: 10px;
   background-color: teal;
   border-radius: 10%;
   border-radius: 4%;
+  margin-bottom: 10px;
+  color: white
 
 }
 
@@ -78,12 +82,12 @@ textarea{
 .form-holder1{
   font-size: 20px;
   background: rgba(0, 151, 151, 0.226);
-  border: 5px solid red;
-   display: flex;
+  display: flex;
   flex-direction: column;
   width: 40%;
   margin: auto;
   backdrop-filter: opacity(.7);
+  padding-top: 20px;
   
   
 }
@@ -92,7 +96,7 @@ textarea{
 .form-holder2{
   font-size: 20px;
   background: rgba(0, 151, 151, 0.226);
-  border: 5px solid greenyellow;
+ 
    display: flex;
   flex-direction: column;
   width: 40%;
@@ -103,6 +107,15 @@ textarea{
 
 .form-holder2 label{
   display: inline-block;
+}
+
+.checkboxcollecter{
+  margin-left: 39px;
+}
+
+
+.radio-collecter{
+  margin-left: 39px;
 }
 
 
